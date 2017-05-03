@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+   
+
+     >
+
+   <WebView
+       android:id="@+id/webViewinstructionbegin"
+       android:layout_width="800dp"
+       android:layout_height="480dp"
+       android:layout_alignParentBottom="true"
+       android:layout_centerHorizontal="true" />
+   
+    <!--  <TableLayout 
+        android:layout_width="700dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/webViewinstructionbegin"
+        android:layout_centerHorizontal="true"
+        
+        
+        >
+   
+<TableRow
+    android:background="#FFFFFF">
+    <ImageButton
+        android:id="@+id/imageViewlogo1"
+       android:layout_width="90dp"
+        android:layout_height="55dp"
+        
+     
+        android:layout_below="@+id/webViewinstructionbegin"
+        android:background="@drawable/iitblogo" />
+    
+    <TextView
+        android:id="@+id/textViewempty1"
+       android:layout_width="90dp"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true"
+     android:layout_below="@+id/webViewinstructionbegin"
+      
+       />
+    
+    
+
+     <ImageButton
+        android:id="@+id/imageViewlogo2"
+       android:layout_width="90dp"
+        android:layout_height="55dp"
+        
+      android:layout_alignParentBottom="true"
+        android:layout_below="@+id/webViewinstructionbegin"
+        android:background="@drawable/djsce" />
+     
+     
+       <TextView
+        android:id="@+id/textViewempty2"
+       android:layout_width="90dp"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true"
+     android:layout_below="@+id/webViewinstructionbegin"
+      
+       />
+     
+     <ImageButton
+         android:id="@+id/imageViewlogo3"
+         android:layout_width="90dp"
+         android:layout_height="match_parent"
+         android:layout_alignParentBottom="true"
+         android:layout_below="@+id/webViewinstructionbegin"
+         android:background="@drawable/creativecommons" />
+     
+      <TextView
+        android:id="@+id/textViewempty3"
+       android:layout_width="90dp"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true"
+     android:layout_below="@+id/webViewinstructionbegin"
+      
+       />
+     
+    
+    <ImageButton
+        android:id="@+id/buttoninstructionBegin"
+        android:layout_width="90dp"
+        android:layout_height="55dp"
+      
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/webViewinstructionbegin"
+        android:background="@drawable/next" />
+    </TableRow>
+    </TableLayout>
+    
+-->
+</RelativeLayout>
