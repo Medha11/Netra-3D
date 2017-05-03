@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.netra3d"
+    android:versionCode="1"
+    android:versionName="1.0" >
+  
+<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/netra3dlogo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        
+        
+        <activity
+            android:name="com.example.netra3d.splash"
+            android:label="@string/app_name"
+             android:screenOrientation="landscape" android:configChanges="orientation|keyboardHidden"  >
+            <intent-filter>
+                
+                <action android:name="android.intent.action.CATEGORY" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.example.netra3d.splash2"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+           
+             android:screenOrientation="landscape" android:configChanges="orientation|keyboardHidden"  >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        
+        <activity
+            android:name="com.example.netra3d.instructionforstage1"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+           
+             android:screenOrientation="landscape" android:configChanges="orientation|keyboardHidden"  >
+            <intent-filter>
+                <action android:name="android.intent.action.CATEGORY" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        
+         <activity
+            android:name="com.example.netra3d.instructionforstage3"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+           
+             android:screenOrientation="landscape" android:configChanges="orientation|keyboardHidden"  >
+            <intent-filter>
+                <action android:name="android.intent.action.CATEGORY" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         <activity
+            android:name="com.example.netra3d.InstructionForActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+           
+             android:screenOrientation="landscape" android:configChanges="orientation|keyboardHidden"  >
+            <intent-filter>
+                <action android:name="android.intent.action.CATEGORY" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         <activity
+            android:name="com.example.netra3d.InstructionForActivity3"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+           
+             android:screenOrientation="landscape" android:configChanges="orientation|keyboardHidden"  >
+            <intent-filter>
+                <action android:name="android.intent.action.CATEGORY" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        
+         <activity
+            android:name="com.example.netra3d.InstructionBegin"
+            android:label="@string/app_name"
+             android:screenOrientation="landscape" android:configChanges="orientation|keyboardHidden"  >
+            <intent-filter>
+                <action android:name="android.intent.action.CATEGORY" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.example.netra3d.Stage1"
+            android:label="@string/app_name"
+             android:screenOrientation="landscape" android:configChanges="orientation|keyboardHidden"  >
+            <intent-filter>
+                <action android:name="android.intent.action.CATEGORY" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.example.netra3d.Stage3"
+            android:label="@string/app_name"
+             android:screenOrientation="landscape" android:configChanges="orientation|keyboardHidden"  >
+            <intent-filter>
+                <action android:name="android.intent.action.CATEGORY" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.example.netra3d.Stage2"
+            android:label="@string/app_name"
+             android:screenOrientation="landscape" android:configChanges="orientation|keyboardHidden"  >
+            <intent-filter>
+                <action android:name="android.intent.action.CATEGORY" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        
+        <activity
+            android:name="com.example.netra3d.FourthMainActivity"
+            android:label="@string/app_name"
+             android:screenOrientation="landscape" android:configChanges="orientation|keyboardHidden"  >
+            <intent-filter>
+                <action android:name="android.intent.action.CATEGORY" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         <activity
+            android:name="com.example.netra3d.FifthMainActivity"
+            android:label="@string/app_name"
+             android:screenOrientation="landscape" android:configChanges="orientation|keyboardHidden"  >
+            <intent-filter>
+                <action android:name="android.intent.action.CATEGORY" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        
+         <activity
+            android:name="com.example.netra3d.Stage1activity"
+            android:label="@string/app_name"
+             android:screenOrientation="landscape" android:configChanges="orientation|keyboardHidden"  >
+            <intent-filter>
+                <action android:name="android.intent.action.CATEGORY" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         
+          <activity
+            android:name="com.example.netra3d.Stage2activity"
+            android:label="@string/app_name"
+             android:screenOrientation="landscape" android:configChanges="orientation|keyboardHidden"  >
+            <intent-filter>
+                <action android:name="android.intent.action.CATEGORY" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        
+     
+        <activity
+            android:name="com.example.netra3d.MainActivity"
+            android:label="@string/app_name"
+             android:screenOrientation="landscape" android:configChanges="orientation|keyboardHidden" >
+            <intent-filter>
+                <action android:name="android.intent.action.CATEGORY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+          
+          
+         <activity
+            android:name="com.example.netra3d.aboutus"
+            android:label="@string/app_name"
+             android:screenOrientation="landscape" android:configChanges="orientation|keyboardHidden" >
+            <intent-filter>
+                <action android:name="android.intent.action.CATEGORY" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         
+          <activity
+            android:name="com.example.netra3d.Instruction"
+            android:label="@string/app_name"
+             android:screenOrientation="landscape" android:configChanges="orientation|keyboardHidden" >
+            <intent-filter>
+                <action android:name="android.intent.action.CATEGORY" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+          
+           <activity
+            android:name="com.example.netra3d.credits"
+            android:label="@string/app_name"
+             android:screenOrientation="landscape" android:configChanges="orientation|keyboardHidden" >
+            <intent-filter>
+                <action android:name="android.intent.action.CATEGORY" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+     
+        
+        <activity
+            android:name="com.example.netra3d.SecondMainActivity"
+            android:label="@string/app_name"
+             android:screenOrientation="landscape" android:configChanges="orientation|keyboardHidden" >
+            <intent-filter>
+                <action android:name="android.intent.action.CATEGORY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+        
+        <activity
+            android:name="com.example.netra3d.ThirdMainActivity"
+            android:label="@string/app_name"
+             android:screenOrientation="landscape" android:configChanges="orientation|keyboardHidden" >
+            <intent-filter>
+                <action android:name="android.intent.action.CATEGORY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+       
+        
+    </application>
+
+</manifest>

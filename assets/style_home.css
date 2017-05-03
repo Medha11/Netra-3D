@@ -1,0 +1,46 @@
+html,body{
+	margin-top:0px;
+	background-color:#CCC;
+	margin-top:0px;
+	}
+
+.container{
+	width:960px;
+	height:599px;
+	background-color:#FFF;
+	text-align:center;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:16px;
+	color:#FFF;
+	margin:auto;
+	overflow:hidden;
+	}
+	
+.logo{
+	width: 100%;
+	height: auto;
+	margin-bottom: 50px;
+	margin-top: auto;
+	margin-right: auto;
+	margin-left: auto;
+
+}
+
+.selectimg{
+	/*    margin-top:30px;*/
+	margin-bottom: 40px;
+}
+
+.table{
+	height:auto;
+	margin-bottom:0px;
+	
+}
+
+.text{
+	padding-left: 17.5%;
+	padding-right: 17.5%;
+	margin-top: 40px;
+	color: #000;
+	text-align: justify;
+}
